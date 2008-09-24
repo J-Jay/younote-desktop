@@ -1,5 +1,4 @@
-YouNoteDesktopSettings
-How initialize YouNote Desktop
+How initialize YouNote Desktop ?
 
 = Introduction =
 
