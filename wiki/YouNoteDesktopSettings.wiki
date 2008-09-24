@@ -1,4 +1,4 @@
-#How initialize YouNote Desktop
+How initialize YouNote Desktop
 
 = Introduction =
 
@@ -10,9 +10,10 @@ The first step is to initialize YouNote Desktop by following this instructions:
   * launch YouNote Desktop 
   * select Preferences item in the YouNote menu 
   * choose a backup folder (folder that will contain all your backups) 
-  * enter a port number (do not use port like 25, 80, …) 
   * enter a Bonjour name (this name will be displayed on your iPhone)
 
 Click on the OK button. That's it.
 
 The first time YouNote establishes a connection, YouNote Desktop displays a pass code. You should type this code when YouNote will ask.
+
+If you don't use Bonjour, you must enter a valid port number and put this value when you add manually a backup server on your iPhone.
