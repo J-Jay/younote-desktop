@@ -31,7 +31,7 @@ The first time YouNote establishes a connection, YouNote Desktop displays a pass
 
 ==The hard way ==
 
-If you don't use Bonjour, you must enter a valid port number and put this value when you add manually a backup server on your iPhone.
+If you don't use Bonjour, it's more complex specially on the iPhone side.
 
 The first step is to initialize YouNote Desktop by following this instructions: 
   * launch YouNote Desktop 
