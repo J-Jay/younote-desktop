@@ -1,0 +1,12 @@
+#summary technology used
+#labels Phase-Implementation
+
+= Introduction =
+
+This page will be completed in the future.
+
+= Details =
+
+We are using Qt 4.4.1 to develop this app.
+
+(http://trolltech.com/)
