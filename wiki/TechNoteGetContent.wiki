@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#Technical Note that explains how you can read the content of your notes
 YouNote Desktop is the tool for backuping your notes but can also help you to get the content of your notes.
 
 All your notes are contained in a archive, a zip file. All zip files are stored in your backup folder. To open a zip file, you can navigate in your system or more easily, you can use the contextual menu in YouNote Desktop. To do that, select an archive in the list then use the contextual menu and select the item "Open".
