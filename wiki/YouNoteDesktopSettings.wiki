@@ -1,5 +1,5 @@
+#summary How initialize YouNote Desktop ?
 #labels Featured,Phase-Deploy
-How initialize YouNote Desktop ?
 
 = Introduction =
 
