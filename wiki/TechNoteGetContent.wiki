@@ -1,4 +1,4 @@
-#Technical Note that explains how you can read the content of your notes
+#Technical Note : get the content of your notes
 
 YouNote Desktop is the tool for backuping your notes but can also help you to get the content of your notes.
 
