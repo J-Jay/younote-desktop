@@ -1,5 +1,4 @@
 #summary How backup and restore your notes ?
-#labels Featured
 
 = Introduction =
 
