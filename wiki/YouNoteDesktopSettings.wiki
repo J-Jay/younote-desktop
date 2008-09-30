@@ -1,20 +1,50 @@
 #summary How initialize YouNote Desktop ?
 #labels Phase-Deploy
 
-= Introduction =
+= Pre requisites =
+
+YouNote and YouNote Desktop work together when they are connected to a network (home local network or internet for example). 
+
+*Important 1:* you can't backup/restore your notes when your iPhone/iPod Touch is tethered to your Mac/PC.
+*Important 2:* even if we don't answer to your comments, we read them and we will enhance YouNote Desktop accordingly.
+
+= Details =
 
 In order to backup and restore your notes on your iPhone, you have some parameters to enter.
 
-= Details =
+==The easy way: using Bonjour==
+
+If you are using a Mac or if you have Bonjour installed on your PC (apparently, iTunes installs Bonjour on Windows), you are lucky. 
+
+If you don't have it, take a look [http://www.apple.com/support/downloads/bonjourforwindows.html here (Apple site)]
 
 The first step is to initialize YouNote Desktop by following this instructions: 
   * launch YouNote Desktop 
   * select Preferences item in the YouNote menu 
   * choose a backup folder (folder that will contain all your backups) 
-  * enter a Bonjour name (this name will be displayed on your iPhone)
+  * enter a Bonjour name (this name will be displayed on your iPhone) or leave this field empty
 
 Click on the OK button. That's it.
 
-The first time YouNote establishes a connection, YouNote Desktop displays a pass code. You should type this code when YouNote will ask.
+The first time YouNote establishes a connection, YouNote Desktop displays a pass code. You should type this code when YouNote will ask. Automatically, YouNote will establish the connection with YouNote Desktop.
+
+==The hard way ==
 
 If you don't use Bonjour, you must enter a valid port number and put this value when you add manually a backup server on your iPhone.
+
+The first step is to initialize YouNote Desktop by following this instructions: 
+  * launch YouNote Desktop 
+  * select Preferences item in the YouNote menu 
+  * choose a backup folder (folder that will contain all your backups) 
+  * leave the server port field empty (YouNote Desktop will find automatically a port for you)
+
+Click on the OK button. That's it.
+
+On your iPhone, you must add a configuration server (the most difficult step) by setting:
+ * the IP address of your PC/Mac
+ * the port you have entered or assigned automatically by YouNote Desktop
+ * a configuration name (if you have several configurations at home or in your office)
+
+*Important:* you can't delete a configuration with YouNote 1.1. It's not a big deal to have several configurations and we will fix that in the next release.
+
+The first time YouNote establishes a connection, YouNote Desktop displays a pass code. You should type this code when YouNote will ask. Automatically, YouNote will establish the connection with YouNote Desktop.
