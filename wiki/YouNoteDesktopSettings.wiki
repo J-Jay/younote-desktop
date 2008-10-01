@@ -44,7 +44,7 @@ If you don't use Bonjour, it's more complex specially on the iPhone side.
 
 The first step is to initialize YouNote Desktop by following this instructions: 
   * launch YouNote Desktop 
-  * select Preferences item in the YouNote menu 
+  * select Preferences item in the Edit menu 
   * choose a backup folder (folder that will contain all your backups) 
   * leave the server port field empty (YouNote Desktop will find automatically a port for you)
 
