@@ -31,7 +31,7 @@ Click on the OK button. That's it.
 On your iPhone, launch YouNote then follow this instructions:
   * display the list of notes
   * on the bottom left corner, tap the "Backup" icon
-  * your desktop is displayed automatically
+  * your computer is displayed automatically
   * select your desktop in the list (you can have several YouNote Desktop installed on different computers but it can be confusing !).
 
 You are ready to backup/restore your notes.
