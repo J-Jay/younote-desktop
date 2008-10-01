@@ -1,4 +1,4 @@
-#summary technology used
+#summary Technical Note: Technology used
 #labels Phase-Implementation
 
 = Introduction =
