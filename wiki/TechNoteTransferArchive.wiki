@@ -1,0 +1,15 @@
+#summary Technical Note: How move an archive from one iphone to another
+
+= Introduction =
+
+There are different situations where you need to move or copy a set of notes contained in an archive from one device to another one. Maybe you own one old device and you want to use a new one or you are using one iPhone and an iPod Touch.
+
+In any situation, this technical note is for you.
+
+= Details =
+
+As you may have read in this [TechNoteGetContent document], the backup folder contains one folder per device. The name of the folder is the UDID (unique device identifier) of the device. If you own several devices, you see several folders.
+
+If you want to move a set of notes from one device to another, you simply need to move the zip file from one folder to another one. If you have only 2 devices, it's very simple. If you have more, you need to make some tests with your iPhones to verify if you drop the archive in the right folder.
+
+If you want to copy, same operation as above except you copy the archive.
