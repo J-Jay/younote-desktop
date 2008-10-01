@@ -1,9 +1,11 @@
-#summary How initialize YouNote Desktop ?
+#summary Instructions for use
 #labels Phase-Deploy
 
 = Pre requisites =
 
 YouNote and YouNote Desktop work together wirelessly (home local network or internet for example). In consequence, for best results, your iPhone must use a WIFI access.
+
+YouNote Desktop can handle several devices so you can use a single YouNote Desktop to backup/restore more than one iPhone/iPod. YouNote recognizes automatically the appropriate device.
 
 *Important 1:* you can't backup/restore your notes when your iPhone/iPod Touch is tethered to your Mac/PC.
 
@@ -23,9 +25,16 @@ The first step is to initialize YouNote Desktop by following this instructions:
   * launch YouNote Desktop 
   * select Preferences item in the YouNote menu 
   * choose a backup folder (folder that will contain all your backups) 
-  * enter a Bonjour name (this name will be displayed on your iPhone) or leave this field empty
 
 Click on the OK button. That's it.
+
+On your iPhone, launch YouNote then follow this instructions:
+  * display the list of notes
+  * on the bottom left corner, tap the "Backup" icon
+  * your desktop is displayed automatically
+  * select your desktop in the list (you can have several YouNote Desktop installed on different computers but it can be confusing !).
+
+You are ready to backup/restore your notes.
 
 The first time YouNote establishes a connection, YouNote Desktop displays a pass code. You should type this code when YouNote will ask. Automatically, YouNote will establish the connection with YouNote Desktop.
 
@@ -41,10 +50,15 @@ The first step is to initialize YouNote Desktop by following this instructions:
 
 Click on the OK button. That's it.
 
-On your iPhone, you must add a configuration server (the most difficult step) by setting:
- * the IP address of your PC/Mac
- * the port you have entered or assigned automatically by YouNote Desktop
- * a configuration name (if you have several configurations at home or in your office)
+On your iPhone, launch YouNote then follow this instructions:
+  * display the list of notes
+  * on the bottom left corner, tap the "Backup" icon
+  * tap on the "+" button
+  * enter a configuration name (for example Home or Office)
+  * the IP address of your PC/Mac
+  * the port you have entered or assigned automatically by YouNote Desktop
+
+Then touch the OK button and you are ready to backup/restore your notes.
 
 *Important:* you can't delete a configuration with YouNote 1.1. It's not a big deal to have several configurations and we will fix that in the next release.
 
