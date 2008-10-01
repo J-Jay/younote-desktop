@@ -3,7 +3,7 @@
 
 = Pre requisites =
 
-YouNote and YouNote Desktop work together when they can establish a connection through a network (home local network or internet for example). In consequence, for best results, your iPhone must use a WIFI access.
+YouNote and YouNote Desktop work together wirelessly (home local network or internet for example). In consequence, for best results, your iPhone must use a WIFI access.
 
 *Important 1:* you can't backup/restore your notes when your iPhone/iPod Touch is tethered to your Mac/PC.
 
