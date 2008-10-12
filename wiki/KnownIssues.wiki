@@ -10,6 +10,13 @@ Abbreviations:
 
 = Description =
 
+===The AudioNotes are not always backed up===
+Some AudioNotes created with a prior release of YN are not sent to YND. In consequence, they are not backed up.
+
+_Workaround_: listen once an AudioNote with YN 1.1
+
+This issue will be fixed in the next update of YN (release 1.1.1).
+
 ===The backup fails when the iPhone is in standby mode===
 If the backup phase is too long, your iPhone switches over to standby mode. The consequence is that the connection is broken.
 
