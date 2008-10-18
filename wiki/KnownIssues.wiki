@@ -35,4 +35,9 @@ When the archive is too big (with a lots of AudioNotes for example or only with 
 
 _Workaround_: none
 
-This issue should be fixed in the next update of YND (release 1.1.1). We still try to find the right way to achieve this task.
+This issue should be fixed in the next update of YN (release 1.1.1). We still try to find the right way to achieve this task.
+
+===An alert on your iPhone displays "Unable to connect to the selected backup server"===
+If you tap the Backup button and have this message, that turns out that YND is unreachable.
+
+_Solution_: disable the firewall on your desktop or enter a port in YND settings and modify the rules of your firewall.
