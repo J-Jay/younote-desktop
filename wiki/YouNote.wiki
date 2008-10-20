@@ -11,4 +11,4 @@ Whatever format the note is in (*Drawing, Audio, Text, Photo,...*), it is possib
 
 Since YouNote 1.1, you can now backup and restore your notes on a desktop if you install YouNote Desktop.
 
-More info on YouNote on [http://www.sophiacom.fr/pages/iphone-us/younote-overview.html Sophiacom web site].
+More informations on YouNote on [http://www.sophiacom.fr/pages/iphone-us/younote-overview.html Sophiacom web site].
