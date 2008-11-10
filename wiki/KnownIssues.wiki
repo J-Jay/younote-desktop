@@ -13,29 +13,20 @@ Abbreviations:
 ===The AudioNotes are not always backed up===
 Some AudioNotes created with a prior release of YN are not sent to YND. In consequence, they are not backed up.
 
-_Workaround_: listen once an AudioNote with YN 1.1
-
-This issue will be fixed in the next update of YN (release 1.1.1).
-
+This issue has been fixed with YN 1.1.1.
 ===The backup fails when the iPhone is in standby mode===
 If the backup phase is too long, your iPhone switches over to standby mode. The consequence is that the connection is broken.
 
-_Workaround_: tap the screen time to time
-
-This issue will be fixed in the next update of YN (release 1.1.1).
+This issue has been fixed with YN 1.1.1.
 ===The backup fails when the connection between YN and YND is too slow===
 In certain circumstances, the connection between YN and YND is lost, for example if you backup your notes through internet.
 
-_Workaround_: none
-
-This issue will be fixed in the next update of YND (release 1.1.1).
+This issue has been fixed with YND 1.2.
 
 ===The backup fails when the archive is too big===
 When the archive is too big (with a lots of AudioNotes for example or only with a big one like a meeting), YN crashes.
 
-_Workaround_: none
-
-This issue should be fixed in the next update of YN (release 1.1.1). We still try to find the right way to achieve this task.
+This issue has been fixed with YN 1.1.2.
 
 ===An alert on your iPhone displays "Unable to connect to the selected backup server"===
 If you tap the Backup button and have this message, that turns out that YND is unreachable.
