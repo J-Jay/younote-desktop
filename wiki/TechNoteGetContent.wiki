@@ -23,10 +23,10 @@ When you unzip an archive, you can see a folder with the same name as the archiv
 A note folder contains:
   *  metadata.xml file (always)
   *  text.txt if there is a note description
-  *  media.jpg if it's a PictNote or a WebNote
-  *  media.caf if it's an AudioNote
-  *  media.png if it's a DrawNote
-  *  inner folders if it's a MultiNote
+  *  media.jpg if it's a !PictNote or a !WebNote
+  *  media.caf if it's an !AudioNote
+  *  media.png if it's a !DrawNote
+  *  inner folders if it's a !MultiNote
 
 Now, with this informations, you can easily grab the content of your notes.
 
@@ -36,7 +36,7 @@ Some of you are maybe more curious. So let me explain what you can find in this 
 
 You can open it with any text editor. It contains all the useful informations that YouNote needs. This informations are:
   *  ID
-  *  type (AudioNote, TextNote, ...)
+  *  type (!AudioNote, !TextNote, ...)
   *  title
   *  creation date
   *  modification date
@@ -44,7 +44,7 @@ You can open it with any text editor. It contains all the useful informations th
   *  list of contacts
   *  location
   *  color
-  *  url (for a WebNote)
+  *  url (for a !WebNote)
 
 Example:
 {{{
