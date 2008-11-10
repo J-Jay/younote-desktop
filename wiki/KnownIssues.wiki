@@ -11,7 +11,7 @@ Abbreviations:
 = Description =
 
 ===The AudioNotes are not always backed up===
-Some AudioNotes created with a prior release of YN are not sent to YND. In consequence, they are not backed up.
+Some !AudioNotes created with a prior release of YN are not sent to YND. In consequence, they are not backed up.
 
 This issue has been fixed with YN 1.1.1.
 ===The backup fails when the iPhone is in standby mode===
