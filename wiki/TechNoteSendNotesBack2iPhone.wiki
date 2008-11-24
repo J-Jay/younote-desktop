@@ -1,0 +1,98 @@
+#summary How to send notes back to your iPhone/iPod touch (draft).
+
+= Introduction =
+
+In this technote, we will explain how you can modify or create new note and send back to your iPhone
+
+*Caution:* make a copy of your last backup archive before any change. YouNote could stop to work correctly if the data are corrupted.
+
+*Rule to follow*: a backup archive is a zip file containing a folder with notes inside. The backup archive *MUST* have the same name as the folder name. Otherwise, YN won't restore your notes. This constraint may change in the future.
+
+The principle is the following:
+ # Make a copy of the selected archive just in case
+ # unzip the archive
+ # apply your modifications
+ # zip the folder
+ # transfert your notes on your iPhone/iPod touch by choosing "Restore" on your iPhone
+
+=How modifying the content of a note ?=
+Each note is a folder. The folder name is just to help you to recognize the notes. It's composed of the ID and the title. The name of this folder doesn't matter.
+
+What can you modify ?
+ * modify the content of a note (TextNote, PictNote,...)
+ * reorganize MultiNotes
+
+==Content modification==
+First we will see how you can modify the content.
+
+A folder (aka a note) contains at least 2 files:
+ * metadata.xml
+ * text.txt
+
+The metadata.xml file contains:
+
+  *  unique ID of the note
+  *  type (!AudioNote, !TextNote, ...)
+  *  title of the note
+  *  creation date
+  *  modification date
+  *  list of tags
+  *  list of contacts (list of (id, firstname, lastname))
+  *  location (latitude, longitude, altitude)
+  *  color (RGB)
+  *  url (for a !WebNote)
+
+The different note types are:
+  *  0= MultiNote
+  *  1= TextNote
+  *  2= AudioNote
+  *  3 = PictNote
+  *  4 = DrawNote
+  *  5= WebNote
+
+The text.txt file contains the text you typed when you created a TextNote. It also contains the comment you may have in any other note (AudioNote, WebNote, PictNote, ..;)
+
+Which files can you modify?
+  *  TextNote: text.txt
+  *  PictNote: media.jpg
+  *  DrawNote: media.png
+  *  WebNote: media.jpg
+  *  AudioNote: media.caf
+
+*Caution:* the jpg or png file size must be reasonnable, aka Apple recommends that the size of the picture doesn't exceed 600x600 pixels. YND doesn't make any control of the size of the picture.
+
+Moreover, don't put any other file in a folder/note. At least, il will be ignored or the restoration could fail.
+
+==What about the MultiNotes ?==
+The very first release of YouNote had a bug. Sometimes, an inner note could be moved by YouNote from one MultiNote to another. Except this bug, you may want do that also for any reason. We will see how.
+
+A MultiNote is a bit more complex. As every note, there are:
+  *  metadata.xml
+  *  text.txt
+plus some sub folders where each sub folder is a inner note. However, an inner note is exactly the same as a "normal" note.
+
+===Transform an inner note in a normal note===
+You can transform an inner note in a "normal" note. To do that you just need to drag and drop the folder/inner note to the highest level.
+Note that the reciprocal is true and easy as well.
+
+===Move an inner note===
+You can move an inner note from one MultiNote to another one by just drag and drop it. Suppose you have:
+
+Folder MultiNote A
+  *  inner note A1
+  *  inner note A2
+
+Folder MultiNote B
+  *  inner note B1
+
+If you want to move A2 into B, just drag and drop the folder A2 into B
+
+=How adding new note ?=
+This part is more tricky because you must create:
+  *  a folder for the new note
+  *  a metadata.xml file
+  *  a text.txt file
+
+*Tip:* the more secure way is to create an empty note on your iPhone then backup your notes so you can apply the above method.
+
+This part will be filled out later.
