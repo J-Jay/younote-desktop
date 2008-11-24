@@ -53,7 +53,7 @@ The different note types are:
 The text.txt file contains the text you typed when you created a TextNote. It also contains the comment you may have in any other note (AudioNote, WebNote, PictNote, ..;)
 
 Which files can you modify?
-  *  TextNote: text.txt
+  *  TextNote: text.txt (UTF-8 encoding)
   *  PictNote: media.jpg
   *  DrawNote: media.png
   *  WebNote: media.jpg
