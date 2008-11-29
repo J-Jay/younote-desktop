@@ -19,8 +19,8 @@ The principle is the following:
 Each note is a folder. The folder name is just to help you to recognize the notes. It's composed of the ID and the title. The name of this folder doesn't matter.
 
 What can you modify ?
- * modify the content of a note (TextNote, PictNote,...)
- * reorganize MultiNotes
+ * modify the content of a note (!TextNote, !PictNote,...)
+ * reorganize !MultiNotes
 
 ==Content modification==
 First we will see how you can modify the content.
@@ -43,30 +43,30 @@ The metadata.xml file contains:
   *  url (for a !WebNote)
 
 The different note types are:
-  *  0= MultiNote
-  *  1= TextNote
-  *  2= AudioNote
-  *  3 = PictNote
-  *  4 = DrawNote
-  *  5= WebNote
+  *  0= !MultiNote
+  *  1= !TextNote
+  *  2= !AudioNote
+  *  3 = !PictNote
+  *  4 = !DrawNote
+  *  5= !WebNote
 
-The text.txt file contains the text you typed when you created a TextNote. It also contains the comment you may have in any other note (AudioNote, WebNote, PictNote, ..;)
+The text.txt file contains the text you typed when you created a !TextNote. It also contains the comment you may have in any other note (!AudioNote, !WebNote, !PictNote, ..;)
 
 Which files can you modify?
-  *  TextNote: text.txt (UTF-8 encoding)
-  *  PictNote: media.jpg
-  *  DrawNote: media.png
-  *  WebNote: media.jpg
-  *  AudioNote: media.caf
+  *  !TextNote: text.txt (UTF-8 encoding)
+  *  !PictNote: media.jpg
+  *  !DrawNote: media.png
+  *  !WebNote: media.jpg
+  *  !AudioNote: media.caf
 
 *Caution:* the jpg or png file size must be reasonnable, aka Apple recommends that the size of the picture doesn't exceed 600x600 pixels. YND doesn't make any control of the size of the picture.
 
 Moreover, don't put any other file in a folder/note. At least, il will be ignored or the restoration could fail.
 
-==What about the MultiNotes ?==
-The very first release of YouNote had a bug. Sometimes, an inner note could be moved by YouNote from one MultiNote to another. Except this bug, you may want do that also for any reason. We will see how.
+==What about the !MultiNotes ?==
+The very first release of YouNote had a bug. Sometimes, an inner note could be moved by YouNote from one !MultiNote to another. Except this bug, you may want do that also for any reason. We will see how.
 
-A MultiNote is a bit more complex. As every note, there are:
+A !MultiNote is a bit more complex. As every note, there are:
   *  metadata.xml
   *  text.txt
 plus some sub folders where each sub folder is a inner note. However, an inner note is exactly the same as a "normal" note.
@@ -76,13 +76,13 @@ You can transform an inner note in a "normal" note. To do that you just need to 
 Note that the reciprocal is true and easy as well.
 
 ===Move an inner note===
-You can move an inner note from one MultiNote to another one by just drag and drop it. Suppose you have:
+You can move an inner note from one !MultiNote to another one by just drag and drop it. Suppose you have:
 
-Folder MultiNote A
+Folder !MultiNote A
   *  inner note A1
   *  inner note A2
 
-Folder MultiNote B
+Folder !MultiNote B
   *  inner note B1
 
 If you want to move A2 into B, just drag and drop the folder A2 into B
