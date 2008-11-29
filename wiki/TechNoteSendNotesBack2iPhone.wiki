@@ -1,4 +1,4 @@
-#summary How to send notes back to your iPhone/iPod touch (draft).
+#summary How to send notes back to your iPhone/iPod touch.
 
 = Introduction =
 
