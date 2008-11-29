@@ -50,6 +50,19 @@ The different note types are:
   *  4 = !DrawNote
   *  5= !WebNote
 
+The available colors are:
+ * red: (R=201 G=5 B=25)
+ * orange: (R=246 G=173 B=1)
+ * yellow: (R=255 G=230 B=0)
+ * green: (R=119 G=185 B=19)
+ * blue: (R=112 G=212 B=229)
+ * purple: (R=115 G=77 B=149)
+ * gray: (R=100 G=100 B=100)
+ * black: (R=0 G=0 B=0)
+
+The format of the creation and modification date follows the international standard for date and time representation ISO 8601. [http://en.wikipedia.org/wiki/ISO_8601]<br>
+Example: 20080828T170635845+200 is 28 August 2008 5:06:35,845 +0200 pm
+
 The text.txt file contains the text you typed when you created a !TextNote. It also contains the comment you may have in any other note (!AudioNote, !WebNote, !PictNote, ..;)
 
 Which files can you modify?
@@ -93,6 +106,45 @@ This part is more tricky because you must create:
   *  a metadata.xml file
   *  a text.txt file
 
-*Tip:* the more secure way is to create an empty note on your iPhone then backup your notes so you can apply the above method.
+It's easier with an example of the creation of a TextNote with a simple content: "Hello world" with the same title, a color red and a tag "example".
 
-This part will be filled out later.
+Suppose we have a folder called "YouNote_bck_20081107_124717". In this folder, create a sub folder called "My first TextNote" (remember that the folder name doesn't matter).
+Then you must create a metadata.xml file.The best way is to create a template somewhere then make a copy. Set all attributes you want (title, creation date, modification date, …) but pay attention to the:
+ * ID
+ * type of the note
+
+In our example, we want to create a TextNote so the type is 1. Pretty simple. 
+
+However, the setting of the ID is not so simple because you have to manually notice the highest ID in the list of Notes. Happily, you don't need to open every metadata.xml file. You just need to look at the folder name because the folder name begins with the ID followed by the title of the note. But pay attention to the inner note too because if the last note you created is an inner note, you didn't see it at first glance.
+
+Ok, we know that it's not obvious but it's temporary. 
+
+Finally the metadata.xml file is:
+{{{
+<?xml version="1.0" encoding="UTF-8"?>
+<note id="99" type="1">
+  <version>1.0.2</version>
+  <title>Hello world</title>
+  <creationDate>20081130T084130874+0200</creationDate>
+  <modificationDate>20081130T152929482+0200</modificationDate>
+  <tag>example</tag>
+  <Contacts/>
+  <geolocalisation>
+    <latitude>0</latitude>
+    <longitude>0</longitude>
+    <altitude>0</altitude>
+  </geolocalisation>
+  <color>
+    <red>201</red>
+    <green>5</green>
+    <blue>25</blue>
+  </color>
+  <url></url>
+</note>
+}}}
+To create the text.txt, file, you can use any text editor like Notepad, TextEdit, .;.
+The content of the file text.txt is simply: Hello world. Don't forget that the encoding must be UTF-8.
+
+That's it.
+
+*Tip:* the more secure way is to create an empty note on your iPhone then backup your notes so you can apply the above method.
