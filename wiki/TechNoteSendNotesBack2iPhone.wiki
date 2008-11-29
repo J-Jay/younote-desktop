@@ -106,14 +106,14 @@ This part is more tricky because you must create:
   *  a metadata.xml file
   *  a text.txt file
 
-It's easier with an example of the creation of a TextNote with a simple content: "Hello world" with the same title, a color red and a tag "example".
+It's easier with an example of the creation of a !TextNote with a simple content: "Hello world" with the same title, a color red and a tag "example".
 
 Suppose we have a folder called "YouNote_bck_20081107_124717". In this folder, create a sub folder called "My first TextNote" (remember that the folder name doesn't matter).
 Then you must create a metadata.xml file.The best way is to create a template somewhere then make a copy. Set all attributes you want (title, creation date, modification date, …) but pay attention to the:
  * ID
  * type of the note
 
-In our example, we want to create a TextNote so the type is 1. Pretty simple. 
+In our example, we want to create a !TextNote so the type is 1. Pretty simple. 
 
 However, the setting of the ID is not so simple because you have to manually notice the highest ID in the list of Notes. Happily, you don't need to open every metadata.xml file. You just need to look at the folder name because the folder name begins with the ID followed by the title of the note. But pay attention to the inner note too because if the last note you created is an inner note, you didn't see it at first glance.
 
