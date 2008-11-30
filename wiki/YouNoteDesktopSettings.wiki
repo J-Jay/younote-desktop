@@ -38,7 +38,7 @@ You are ready to backup/restore your notes.
 
 The first time YouNote establishes a connection, YouNote Desktop displays a pass code. You should type this code when YouNote will ask. Automatically, YouNote will establish the connection with YouNote Desktop.
 
-==The hard way ==
+==The less easy way ==
 
 If you don't use Bonjour, it's more complex specially on the iPhone side.
 
@@ -53,13 +53,14 @@ Click on the OK button. That's it.
 On your iPhone, launch YouNote then follow this instructions:
   * display the list of notes
   * on the bottom left corner, tap the "Backup" icon
-  * tap on the "+" button
+  * tap on the "Edit" button
+  * choose "Add server"
   * enter a configuration name (for example Home or Office)
   * the IP address of your PC/Mac
   * the port you have entered or assigned automatically by YouNote Desktop
 
 Then touch the OK button and you are ready to backup/restore your notes.
 
-*Important:* you can't delete a configuration with YouNote 1.1. It's not a big deal to have several configurations and we will fix that in the next release.
+To delete a configuration, click on the "Edit" button (like adding a configuration), tap on the "minus" sign of the configuration to delete then tap on the "Delete" button.
 
 The first time YouNote establishes a connection, YouNote Desktop displays a pass code. You should type this code when YouNote will ask. Automatically, YouNote will establish the connection with YouNote Desktop.
