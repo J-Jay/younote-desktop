@@ -14,6 +14,11 @@ Abbreviations:
 If you tap the Backup button and have this message, that turns out that YND is unreachable.
 
 _Solution_: disable the firewall on your desktop or enter a port in YND settings and modify the rules of your firewall.
+
+===The backup fails but no message is displayed===
+YN backs up your note, the progress bar is displayed but when it's done, no backup archive is stored on your computer. 
+
+_Solution_: the archive file is too big. The only workaround currently is to delete some big notes (!AudioNote is a good candidate). We are working on a new process: back up note after note directly without create a zip file.
 ===The AudioNotes are not always backed up===
 Some !AudioNotes created with a prior release of YN are not sent to YND. In consequence, they are not backed up.
 
