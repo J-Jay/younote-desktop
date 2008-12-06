@@ -10,6 +10,10 @@ Abbreviations:
 
 = Description =
 
+===An alert on your iPhone/iPod Touch displays "Unable to connect to the selected backup server"===
+If you tap the Backup button and have this message, that turns out that YND is unreachable.
+
+_Solution_: disable the firewall on your desktop or enter a port in YND settings and modify the rules of your firewall.
 ===The AudioNotes are not always backed up===
 Some !AudioNotes created with a prior release of YN are not sent to YND. In consequence, they are not backed up.
 
@@ -27,8 +31,3 @@ This issue has been fixed with YND 1.2.
 When the archive is too big (with a lots of AudioNotes for example or only with a big one like a meeting), YN crashes.
 
 This issue has been fixed with YN 1.1.2.
-
-===An alert on your iPhone/iPod Touch displays "Unable to connect to the selected backup server"===
-If you tap the Backup button and have this message, that turns out that YND is unreachable.
-
-_Solution_: disable the firewall on your desktop or enter a port in YND settings and modify the rules of your firewall.
