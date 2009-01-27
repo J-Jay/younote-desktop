@@ -117,6 +117,8 @@ In our example, we want to create a !TextNote so the type is 1. Pretty simple.
 
 However, the setting of the ID is not so simple because you have to manually notice the highest ID in the list of Notes. Happily, you don't need to open every metadata.xml file. You just need to look at the folder name because the folder name begins with the ID followed by the title of the note. But pay attention to the inner note too because if the last note you created is an inner note, you didn't see it at first glance.
 
+Or you can set a very high ID, for example, 1000 if you are sure that you have less than 1000 notes. In fact, when YouNote restores your notes, it can change the IDs. So it's unlikely that this note ID remains.
+
 Ok, we know that it's not obvious but it's temporary. 
 
 Finally the metadata.xml file is:
