@@ -10,29 +10,36 @@ Abbreviations:
 
 = Description =
 
+===The backup doesn't work if iPhone OS 3.0 is installed===
+YouNote 1.2 and earlier can't backup your notes. So if the backup is crucial for you, wait for YouNote 1.2.1 before upgrading.
+
 ===An alert on your iPhone/iPod Touch displays "Unable to connect to the selected backup server"===
 If you tap the Backup button and have this message, that turns out that YND is unreachable.
 
 _Solution_: disable the firewall on your desktop or enter a port in YND settings and modify the rules of your firewall.
 
-===The backup fails but no message is displayed===
-YN backs up your note, the progress bar is displayed but when it's done, no backup archive is stored on your computer. 
 
-_Solution_: the archive file is too big. The only workaround currently is to delete some big notes (!AudioNote is a good candidate). We are working on a new process: back up note after note directly without create a zip file.
-===The AudioNotes are not always backed up===
-Some !AudioNotes created with a prior release of YN are not sent to YND. In consequence, they are not backed up.
-
-This issue has been fixed with YN 1.1.1.
-===The backup fails when the iPhone is in standby mode===
-If the backup phase is too long, your iPhone switches over to standby mode. The consequence is that the connection is broken.
-
-This issue has been fixed with YN 1.1.1.
 ===The backup fails when the connection between YN and YND is too slow===
 In certain circumstances, the connection between YN and YND is lost, for example if you backup your notes through internet.
 
-This issue has been fixed with YND 1.2.
+YN 1.2 is better but there are still some issues.
 
 ===The backup fails when the archive is too big===
 When the archive is too big (with a lots of AudioNotes for example or only with a big one like a meeting), YN crashes.
 
-This issue has been fixed with YN 1.1.2.
+YN 1.1.2 is better but there are still some issues.
+
+===The backup fails but no message is displayed===
+YN backs up your note, the progress bar is displayed but when it's done, no backup archive is stored on your computer. 
+
+_Solution_: the archive file is too big. The only workaround currently is to delete some big notes (!AudioNote is a good candidate). We are working on a new process: back up note after note directly without create a zip file.
+
+===The AudioNotes are not always backed up===
+Some !AudioNotes created with a prior release of YN are not sent to YND. In consequence, they are not backed up.
+
+This issue has been fixed with YN 1.1.1.
+
+===The backup fails when the iPhone is in standby mode===
+If the backup phase is too long, your iPhone switches over to standby mode. The consequence is that the connection is broken.
+
+This issue has been fixed with YN 1.1.1.
