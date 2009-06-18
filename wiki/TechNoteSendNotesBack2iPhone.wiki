@@ -43,12 +43,13 @@ The metadata.xml file contains:
   *  url (for a !WebNote)
 
 The different note types are:
-  *  0= !MultiNote
-  *  1= !TextNote
-  *  2= !AudioNote
+  *  0 = !MultiNote
+  *  1 = !TextNote
+  *  2 = !AudioNote
   *  3 = !PictNote
   *  4 = !DrawNote
-  *  5= !WebNote
+  *  5 = !WebNote
+  *  6 = !VideoNote
 
 The available colors are:
  * red: (R=201 G=5 B=25)
