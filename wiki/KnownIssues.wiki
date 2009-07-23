@@ -11,7 +11,9 @@ Abbreviations:
 = Description =
 
 ===The backup doesn't work if iPhone OS 3.0 is installed===
-YouNote 1.2 and earlier can't backup your notes. So if the backup is crucial for you, wait for YouNote 1.2.1 before upgrading.
+YN 1.2 and earlier can't back up your notes.
+
+_Solution_: download YN 1.2.1 from the App Store.
 
 ===An alert on your iPhone/iPod Touch displays "Unable to connect to the selected backup server"===
 If you tap the Backup button and have this message, that turns out that YND is unreachable.
