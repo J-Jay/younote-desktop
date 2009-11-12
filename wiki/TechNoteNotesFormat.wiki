@@ -1,0 +1,20 @@
+#summary Technical Note: notes format
+
+= Introduction =
+
+Many of you are asking what is the notes format. And how can you use them on your desktop.
+
+
+= Details =
+
+As explained [TechNoteGetContent here]
+Each note is a folder that contains:
+  *  metadata.xml file (always)
+  *  text.txt if there is a note description
+  *  media.jpg if it's a !PictNote or a !WebNote
+  *  media.caf if it's an !AudioNote
+  *  media.png if it's a !DrawNote
+
+If for most of the above formats it's easy to know how displaying it on your desktop, some of you are embarrassed with the caf (CAF is a Core Audio File) format used for storing your AudioNotes. The caf format is a native Mac OS X/iPhone format that can be read directly with Quick Look, Quicktime Player, Garage Band. Quicktime Player can also export a caf file in an other format like aiff file.
+
+On Windows, it's harder to find softwares converting caf files. Apparently, the only solution we found is to use Quicktime Player.
