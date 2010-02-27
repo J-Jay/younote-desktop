@@ -2,9 +2,9 @@
 
 YouNote Desktop is the tool for backuping your notes but can also help you to get the content of your notes.
 
-All your notes are contained in a archive, a zip file. All zip files are stored in your backup folder. To open a zip file, you can navigate in your system or more easily, you can use the contextual menu in YouNote Desktop. To do that, select an archive in the list then use the contextual menu and select the item "Open".
+All your notes are contained in folders stored in your backup folder. To open a archive (aka the folder), you can navigate in your system or more easily, you can use the contextual menu in YouNote Desktop. To do that, select an archive in the list then use the contextual menu and select the item "Open".
 
-This function will unzip the archive for you then it's easy to look at the list of your notes.
+This function will open the folder for the archive.
 
 But before analyse the content of an archive, some words about your backup folder.
 
@@ -18,7 +18,7 @@ In summary, you have:
   *  the list of archives
 
 *Content of an archive*
-When you unzip an archive, you can see a folder with the same name as the archive (except the extension .zip). In this folder, you see a list sub folders (a sub folder is a note).
+An archive is a folder with the same name as the archive (it's the folder name actually). In this folder, you see a list sub folders (a sub folder is a note).
 
 A note folder contains:
   *  metadata.xml file (always)
