@@ -9,4 +9,4 @@ This page will be completed in the future.
 
 We are using Qt 4.4.1 to develop this app.
 
-(http://trolltech.com/)
+(http://qt.nokia.com/)
