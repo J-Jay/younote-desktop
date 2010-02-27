@@ -75,9 +75,7 @@ Which files can you modify?
 
 Moreover, don't put any other file in a folder/note. At least, il will be ignored or the restoration could fail.
 
-==What about the !MultiNotes ?==
-The very first release of YouNote had a bug. Sometimes, an inner note could be moved by YouNote from one !MultiNote to another. Except this bug, you may want do that also for any reason. We will see how.
-
+==What about the !MultiNotes?==
 A !MultiNote is a bit more complex. As every note, there are:
   *  metadata.xml
   *  text.txt
@@ -114,11 +112,7 @@ Then you must create a metadata.xml file.The best way is to create a template so
 
 In our example, we want to create a !TextNote so the type is 1. Pretty simple. 
 
-However, the setting of the ID is not so simple because you have to manually notice the highest ID in the list of Notes. Happily, you don't need to open every metadata.xml file. You just need to look at the folder name because the folder name begins with the ID followed by the title of the note. But pay attention to the inner note too because if the last note you created is an inner note, you didn't see it at first glance.
-
-Or you can set a very high ID, for example, 1000 if you are sure that you have less than 1000 notes. In fact, when YouNote restores your notes, it can change the IDs. So it's unlikely that this note ID remains.
-
-Ok, we know that it's not obvious but it's temporary. 
+About the ID, you can type any value you want because YouNote recreates ID when it restores your notes. So you can set a very high ID, for example, 1000.
 
 Finally the metadata.xml file is:
 {{{
@@ -143,7 +137,8 @@ Finally the metadata.xml file is:
   <url></url>
 </note>
 }}}
-To create the text.txt, file, you can use any text editor like Notepad, TextEdit, .;.
+To create the text.txt, file, you can use any text editor like Notepad, TextEdit, ...
+
 The content of the file text.txt is simply: Hello world. Don't forget that the encoding must be UTF-8.
 
 That's it.
