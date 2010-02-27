@@ -10,6 +10,6 @@ In any situation, this technical note is for you.
 
 As you may have read in this [TechNoteGetContent document], the backup folder contains one folder per device. The name of the folder is the UDID (unique device identifier) of the device. If you own several devices, you see several folders.
 
-If you want to move a set of notes from one device to another, you simply need to move the zip file from one folder to another one. If you have only 2 devices, it's very simple. If you have more, you need to make some tests with your iPhones to verify if you drop the archive in the right folder.
+If you want to move a set of notes from one device to another, you simply need to move the archive/folder from one UDID folder to another one. If you have only 2 devices, it's very simple. If you have more, you need to make some tests with your iPhones to verify if you drop the archive in the right folder.
 
-If you want to copy, same operation as above except you copy the archive.
+If you want to copy, same operation as above except you copy the archive/folder.
