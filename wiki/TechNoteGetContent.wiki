@@ -6,7 +6,7 @@ All your notes are contained in folders stored in your backup folder. To open a 
 
 This function will open the folder for the archive.
 
-But before analyse the content of an archive, some words about your backup folder.
+But before analyzing the content of an archive, some words about your backup folder.
 
 *Organisation of a backup folder*
 
