@@ -11,6 +11,8 @@ YouNote Desktop can handle several devices so you can use a single YouNote Deskt
 
 *Important 2:* even if we don't answer to your comments, we read them and we will enhance YouNote Desktop accordingly.
 
+*Important 3:* Look at the [http://www.slideshare.net/Sophiacom/younote-backup-instructions-en slides]. It contains screen shots so it easier to understand than reading this technical not.
+
 = Details =
 
 In order to backup and restore your notes on your iPhone, you have some parameters to enter.
