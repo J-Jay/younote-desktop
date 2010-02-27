@@ -4,7 +4,7 @@ YouNote Desktop is the tool for backuping your notes but can also help you to ge
 
 All your notes are contained in folders stored in your backup folder. To open a archive (aka the folder), you can navigate in your system or more easily, you can use the contextual menu in YouNote Desktop. To do that, select an archive in the list then use the contextual menu and select the item "Open".
 
-This function will open the folder for the archive.
+This function will open the associated folder.
 
 But before analyzing the content of an archive, some words about your backup folder.
 
