@@ -9,6 +9,6 @@ This information is accessible and available at all times on your iPhone.
 
 Whatever format the note is in (*Drawing, Audio, Text, Photo,...*), it is possible to link different criteria (*tags, a color, the geolocation,...*) which simplifies the filing and finding of the notes.
 
-Since YouNote 1.1, you can now backup and restore your notes on a desktop if you install YouNote Desktop.
+Since YouNote 1.1, you can now back up and restore your notes using YouNote Desktop.
 
-More informations on YouNote on [http://www.sophiacom.fr/pages/iphone-us/younote-overview.html Sophiacom web site].
+More informations about YouNote on [http://www.sophiacom.fr/pages/iphone-us/younote-overview.html Sophiacom web site].
