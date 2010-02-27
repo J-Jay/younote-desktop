@@ -6,7 +6,7 @@ In this technote, we will explain how you can modify or create new note and send
 
 *Caution:* make a copy of your last archive before any change. YouNote could stop to work correctly if the data are corrupted.
 
-*Rule to follow*: a backup archive is a folder with notes inside. The folder name must be like YouNote_bck_20091228_131347 (yyyymmdd__hhmmss). This constraint may change in the future.
+*Rule to follow*: a backup archive is a folder with notes inside. The folder name must be like !YouNote_bck_20091228_131347 (yyyymmdd__hhmmss). This constraint may change in the future.
 
 The principle is the following:
  # Make a copy of the selected archive just in case
