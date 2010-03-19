@@ -146,4 +146,4 @@ The content of the file text.txt is simply: Hello world. Don't forget that the e
 
 That's it.
 
-*Tip:* the more secure way is to create an empty note on your iPhone then backup your notes so you can apply the above method.
+*Tip:* the safer way is to create an empty note on your iPhone then backup your notes so you can apply the above method.
