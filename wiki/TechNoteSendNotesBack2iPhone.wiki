@@ -60,7 +60,7 @@ The available colors are:
  * black: (R=0 G=0 B=0)
 
 The format of the creation and modification date follows the international standard for date and time representation ISO 8601. [http://en.wikipedia.org/wiki/ISO_8601]<br>
-Example: 20080828T170635845+200 is 28 August 2008 5:06:35,845 +0200 pm
+Example: 20100328T170635845+200 is 28 March 2010 5:06:35,845 +0200 pm
 
 The text.txt file contains the text you typed when you created a !TextNote. It also contains the comment you may have in any other note (!AudioNote, !WebNote, !PictNote, ..;)
 
