@@ -52,8 +52,8 @@ Example:
 <note id="8" type="3">
   <version>1.0.2</version>
   <title>Spanish white wine - Marina Alta</title>
-  <creationDate>20080816T151305055+0200</creationDate>
-  <modificationDate>20080917T153653455+0200</modificationDate>
+  <creationDate>20120816T151305055+0200</creationDate>
+  <modificationDate>20120917T153653455+0200</modificationDate>
   <tags/>
   <Contacts/>
   <geolocalisation>
