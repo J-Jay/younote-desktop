@@ -73,6 +73,8 @@ Which files can you modify?
 
 *Caution:* the jpg or png file size must be reasonnable, aka Apple recommends that the size of the picture doesn't exceed 600x600 pixels. YND doesn't make any control of the size of the picture.
 
+*Note:* if you change the tags (adding or removing tags), the list of tags will be rebuilt automatically when you import the modified backup into YouNote. Of course, don't forget to modify manually every note linked to the tags you modify.
+
 Moreover, don't put any other file in a folder/note. At least, il will be ignored or the restoration could fail.
 
 ==What about the !MultiNotes?==
