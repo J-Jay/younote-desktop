@@ -2,7 +2,7 @@
 
 = Introduction =
 
-There are different situations where you need to move or copy a set of notes contained in an archive from one device to another one. Maybe you own one old device and you want to use a new one or you are using one iPhone and an iPod Touch.
+There are different situations where you need to move or copy a set of notes contained in an archive from one device to another one. Maybe you own one old device and you want to use a new one or you are using one iPhone, an iPod Touch or even an iPad (even if YN is not yet designed for iPad).
 
 In any situation, this technical note is for you.
 
