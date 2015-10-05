@@ -1,0 +1,12 @@
+# Introduction #
+
+YouNote is an application for iPhone that allows you to take quick notes on all sorts of information.
+This information is accessible and available at all times on your iPhone. There are 2 flavors: (free and paid release. There are no limitation with the free version but, of course, the paid release gives more functionalities.
+
+# Details #
+
+Whatever format the note is in (**Drawing, Audio, Text, Photo,...**), it is possible to link different criteria (**tags, a color, the geolocation,...**) which simplifies the filing and finding of the notes.
+
+Since YouNote 1.1, you can now back up and restore your notes using YouNote Desktop.
+
+More informations about YouNote on [YouNote web site](http://www.sophiacom.fr/pages/iphone-us/younote-overview.html).

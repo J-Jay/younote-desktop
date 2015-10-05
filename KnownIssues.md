@@ -1,0 +1,19 @@
+# Introduction #
+
+This page describes knowns issues and workarounds when they are available. This page is focused on YouNote (Lite) 1.3. Please upgrade if you have an earlier version.
+
+Abbreviations:
+  * YN = YouNote
+  * YND = YouNote Desktop
+
+# Description #
+
+### An alert on your iPhone/iPod Touch displays "Unable to connect to the selected backup server" ###
+If you tap the Backup button and have this message, that turns out that YND is unreachable.
+
+_Solution_: disable the firewall on your desktop or enter a port in YND settings and modify the rules of your firewall. Look at the instructions user (link on the [Project Home Page](http://code.google.com/p/younote-desktop))
+
+### The backup fails when the iPhone is in standby mode ###
+If the backup phase is too long, your iPhone switches over to standby mode. The consequence is that the connection is broken. Or YouNote stops backing up after 30 mn.
+
+Don't use the battery: plug you iPhone/iPod. Or your iPhone will break the wifi connection after 30 mn.
